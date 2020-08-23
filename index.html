@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<!--Hello, maker! Welcome to my Electrate Fuego web design tutorial. I'm glad you found it – for this might be a real intersection on your way to becoming. I (S.J. Quigley) use this document in my Technical Communications classes at the University of Pittsburgh to teach my students a little bit about computer science and something called "electracy." Just follow along with comments like this one, and you'll make a really cool web documemt that not only introduces you to the other people in our classes, but will help you process how different discourse communities in your life have contributed to your arrival in this space, virtual and actual, and also contribute to where you might be going. 
+
+In this doc, you will work through Gregory Ulmer's discourses of career, family, entertainment, community, and schooling (_Internet Invention From Literacy to Electracy_, 2002.) In Ulmer's text, he elides community and schooling into one category, but for our puposes I have separated them. Ulmer's theory of electracy helps makes sense of how we find/construct meaning and connect with others rhetorically in a media rich ecology. Ulmer uses analogy to define electracy, explaining that "electracy is to digital media what literacy is to print." 
+
+You could make this document the easy way--like I once did by using a program called Adobe Spark: https://spark.adobe.com/page/umUY5ROHgANCl/, or you can do a little more work to unconceal, opening up these tools that you use every day, but might not know how they function, yet prove so necessary to how you (re)present yourself and connect with others in virtual spaces. And this last bit is an important point! If we really want to be makers, if we really want to be creative, then we need to understand what our digital tools do, how they work, and consider the implications of their use. Through this process you will alos learn a little bit about computer literacy and computer science. Enough to allow you to build web texts and understand file management. 
+
+So let's cut this thing open – using "tmesis" as the Ancient Greeks would call it – lets "cut" and arrange, tweak, take away and augment...that's how we create! I hope you're excited to use this tool to create a document that will simultaneously help you process your journey and help orient you along the path on which you are headed in your becoming. Before we get going I would like to give a shout-out to my research buddy Shauna Chung, who helped me develop the original Ulmerian framework we will be following in this document. Are you ready to get started?--> 
+    
+ <!--To get started, you will need to fork my repository from GitHub if you haven't already. If you want to easily publish it on GitHub, I'll give you more information at the end of this document. But for right now, fork, and then download the website to a zip file (or clone it, if you know what that means). Go ahead and put these files in a secure place (folder) where you will be able to find them and organize your other assests like images, pdfs, etcetera. You will also need a text editor like "brackets.io" or "atom.io" or "notepad-plus-plus.org." Open the style.css and index.html documents in the text editor and we can get started building our own electrate experience.--> 
+
+<!--BTW. You can leave these hidden HTML text fields be, or delete them. They are but road signs, absent from the larger design-->
+
+<!--First we will need to do some work in the head of the document. The head organizes important information needed to expalin to browsers how the website will work. Go ahead and change the title of this HTML document below, from "Electrate Fuego" to whatever you want it to be called. Your new text will appear in your browser tab-->
+    
+<title>Tyler Comisky</title>
+    
+    <!--this next section of code does important work to help different browsers understand what this page should look like on the different kinds of screens.--> 
+    
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+     <!--this code tells the browser to link to the style.css file that controls the appearance of much of your content.--> 
+    
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+  
+  
+<!--The body of the document houses the content that a user usually sees on a website. We'll be spending most of our time in this section.-->
+    
+<body>
+       
+<!-- We'll need to do some more work in this section, but to do so, we'll need to make some changes on your style.css file. Developers refer to this division as a "Hero Block," but we will refer to it as a "Wide Image."  Think carefully about the image you select and how it might serve a sybolic function in your life. Ulmer refers to these kinds of symbolic images as "wide images" in that they often repeat over and over in our lifetime. We will similarly repeat this image at the end of your Electrate Infuego composition to establish a motif in this web document.  
+
+Place a .jpg or .png in the same file folder as this project (hint: simplify the name). You don't need to do anything on this html page, but you'll need to change the background image name on the style.css page to match you image asset.
+
+Now, change the other relevant information in this section, especially if you're not John en Fuego or not majoring in "electracy"-->
+
+<div class="hero-image">
+  <div class="hero-text">
+      <h1>I am Tyler Comisky</h1>
+      <h2>And I study Computer Science</h2>
+      <h3>(And Music)</h3>
+  </div>
+</div>
+
+      <!--In our first exploration of discourse, we're going to think about the wider characteristics or themes of our field or future career. In academia, we do a lot of work narrowing our interest to arrive at a career or profession, often reducing our field to a level of operation or an act. Instead, I would like you to think more broadly about the "wider themes" you associate with your field or future career and its larger significance in improving our world. Yes--improving the world. Thinking back, where do you see exposure to those same "wider themes" in your own life? Those ah-ha moments, lessons, examples, tools, passions, or qualities that suggested this career path to you? Replace the content between <h2> and </h2> that begins with "Lorem ipsum."-->
+    
+     <div class="par-centertext">
+  <h1>Field or Career</h1>
+    
+  <h2>With my knowledge of computer science, I hope to have a career in cybersecurity. The impacts of cybersecurity are not always apparent, but it is something that is necessary for our increasingly digital world. I knew I wanted to do something related to computers ever since I was a young child, when my dad took me to his office and showed me the server room, where he did a lot of his work. My goal is to eventually run my own auditing company.</h2>    
+</div>
+    
+     
+<!--in this next section you will explain a little more about your family (what does family means to you? Who are the people that influenced you on this path along which you now stand).--> 
+    
+<div class="par-centertext">
+  <h1>Family and Home</h1>
+    </div>
+    
+<!--We will begin this section with a photo grid. Add those beautiful, meaningful "family" and "home" photos (only you can define family) to your project folder, making sure the files end in .jpg or .png and replace/add the names of your assets to the grid below. You can add more photos if you wish, or subtract... see what happens – you have to be playful to find the purpose of things. You may need to adjust the size of your assets to produce the effect you desire. Resizing local files is one way to control the size of images on a website.-->
+    
+<div class="row"> 
+  <div class="column">
+    <img src="fam1.jpg" alt="picture of my immediate family">
+    <img src="fam2.jpg" alt="picture of family">
+  </div>
+  <div class="column">
+    <img src="fam3.jpg" alt="picture of entire family">
+    <img src="fam4.jpg" alt="another picture of my immediate family">
+  </div>
+  <div class="column">    
+    <img src="fam5.jpg" alt="picture of my dog">
+    <img src="fam6.jpg" alt="picture of my family on the salt flats">
+  </div>
+</div>
+   
+<!--Time to write. Flesh it out! Define family, qualify it, explicate it telling us why these people are important, and how they contributed to how you got here and where you are going. What about "home." What  does that mean to you? In what ways is it significant in determining where your are going? Replace the content between <h2> and </h2> that says "Lorem ipsum."--> 
+    
+<div class="par-centertext">
+  <h2>To me, my family is the group of people that I can always rely on, and talk to whenver I need them. When I'm not at school, I live with my parents and younger brother. I also enjoy spending time with my grandparents. My family has always supported me in every way possible, and I am extremely grateful for that.</h2>    
+</div>
+  
+     <!--Replace the image here. You can also control image width and height %. This is the second way we can control the size of images on our website.-->
+    
+<div> 
+ <img src="tubing.jpg" class="center-small-image" alt="my feet in water" style="max-width:50%; max-height:50%;">
+    </div>
+        
+<!--Now we are moving into the kinds of media that contributes to your everyday discourse. This might sound weird, but Ulmer argues that media has actually contributed a great deal to who you are as a person, how you language yourself, and even how you move through the world and interact with others. So, let's take some time to explore this discourse area. You have the opportunity to add video content or other significant media content. You might also add images to this section (see the bottom of this sheet for directions on how to add elements) perhaps adding a photo grid like the one you did for the "Family" section. Experiment. You can't break this thing, right? Control Z. Control Z. Control Z... -->
+
+<div class="par-centertext">
+  <h1>Entertainment</h1>
+</div>
+ 
+    <!--find a YouTube video that has some significance in your life. Click "share," and copy and paste the embed link and paste it below-->
+    
+    <div class="centertext">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/6FwmGLzyRDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
+<!--Time to process. How do you use media? What role do certain kinds of media play in your life? How does media serve a social function? In what way might you be "recreating" or "remaking" media in your everyday life? 
+
+FUN FACT: "Lorem ipsum", "Lorem ipsum" was hacked out of Cicero's "De finibus bonorum et malorum," developers made it non-sensical. So while you will probably never write as well as Cicero, you can always improve upon "Lorem ipsum." -->  
+    
+<div class="par-centertext">
+  <h2>Most of my media consumption comes from Instagram and Netflix. I like to post on my Instagram from time to time, but I mostly use it to keep up with my friends. Occasionally, I play videogames with my friends, which keeps me connected to them even when they are far away. When I have nothing else to do, I like to go on Netflix to watch shows like The Office or Parks and Recreation. During the summer, I like to go boating on Barnegat Bay. Once there is snow on the ground, I enjoy skiing, usually at Hidden Valley.</h2>    
+</div>
+
+    <!--Between these divisions, you may want to add a new div element like an image (see the bottom of this html page for instructions) --> 
+    
+<!--We will use this next section to process your community(-ies)--> 
+
+<div class="par-centertext">
+  <h1>Community</h1>
+    </div>
+   
+    <!--So what exactly is your community: is it actual? virtual? Where do find your ground, or at least, where do you drop anchor, you drifter, you? While we often think of communities as neighborhoods and clubs and a group of colleagues or friends, you might find community across the frontiers of the dead, and perhaps even with those who have never lived. I'll let you explain. -->
+    
+    <div class="par-centertext">
+  <h2>Growing up in a small town meant that I had a very close community of neighbors who always looked out for each other. Once I got to high school and college, I became very involved with music, so I quickly found myself in a tight-knit community of musicians. Currently, I am in the Pitt Band, but I still keep in touch with the friends I made in high school.</h2>    
+  </div>
+    
+    <div>
+ <img src="band.jpg" class="center-large-image" alt="me and my band friends" style="max-width:100%;max-height:100%;">
+    </div>
+    
+<!-- In our final discourse section, we will process the role schooling has played in our lives. -->
+
+<div class="par-centertext"> 
+    <h1>School</h1>
+</div>
+    
+<!--To change the image for this wide screen paralax scroll, you will need change the file name in your style.css to match an image in your project folder. Look for ".paralax1" on your style.css sheet-->
+  
+    <div class="parallax-1"></div>
+    
+<!--Like it or not, your schooling, formal and informal, for better or for worse, has been another factor that has brought you here and prepared you for this moment. Let's think through these systems, expectations, and outcomes. And let's also think a little about futurity... where is this learning, formal and informal – this unconcealing – taking you? -->
+    
+    <div class="par-centertext">   
+  <h2>Most of my schooling has been traditional, but the one aspect that stands out to me is my music education. For this, I learned the basics of my instrument at school but a lot of the learning was accomplished by myself, through practicing and listening to other people play. I have found that this method of learning is a lot more tedious than just showing up to class, but in the end you gain a lot more knowledge from it than from a traditional classroom experience.</h2>    
+  </div>
+    
+<!--The final step in our process will be to ensure that a smaller version of our "hero image," what Ulmer would refer to as our "wide image," repeats at the bottom of our document to better reinforce this motif.  -->
+    
+        <div>
+ <img src="scotland.jpg" class="center-large-image" alt="Me In Scotland" style="max-width:25%;max-height:25%;">
+    </div>
+    
+<div class="centertext">
+    
+<p>generated by the Pitt Fuego</p>
+    <p> “Why make a spark when you can light a fire?</p>
+   </div>
+
+<br>
+<br>
+  </body>
+     </html>
+
+<!--Anticopyright. Peace and love only, S.J. Quigley, University of Pittsburgh-->
+
+<!--
+Looking to add components? You have come to the right place. Copy and paste the code into your body.
+
+***Add an image. 
+To add an image, all you need to do is add the HTML, the CSS style has aleady been set. Just drop the following code between other <div></div> elements...and you will need to replace the stinky feet.jpg. 
+
+***Small image: 
+
+<div>
+<img src="feet.jpg" alt="Paris" class="center-small-image" alt="my feet in water" style="width:50%;height:50%;">
+</div>
+
+***Large image:   
+
+<div>
+<img src="feet.jpg" alt="Paris" class="center-large-image" alt="my feet in water" style="width:100%;height:100%;">
+</div>
+
+***Add a photo grid:
+
+<div class="row"> 
+  <div class="column">
+    <img src="pgrid1.jpg" alt="decribe the image HERE for accessibility purposes">
+    <img src="pgrid2.jpg" alt="decribe the image HERE for accessibility purposes">
+  </div>
+  <div class="column">
+    <img src="pgrid3.jpg" alt="decribe the image HERE for accessibility purposes">
+    <img src="pgrid4.jpg" alt="decribe the image HERE for accessibility purposes">
+  </div>
+  <div class="column">    
+    <img src="pgrid5.jpg" alt="decribe the image HERE for accessibility purposes">
+    <img src="pgrid6.jpg" alt="decribe the image HERE for accessibility purposes">
+  </div>
+</div>
+
+
+-->
+
+<!--
+Looking to publish this in GitHub? Here is what you need to do.
+
+Go back to your forked repository in GitHub or create a new repository. Click upload, and select/drag and drop all of you files... all of them, index.html. style.html, readme, and your image assets. Click commit. This will replace/add all essential files to make your Electrate Fuego. Great, now your Electrate Fuego files are where it needs to be. Now go to your repository "settings." Scroll down to "GitHub Pages." Here you will change "source" from "none" to "master branch." This will publish your Electrate Fuego online. You will find your URL now available to access in this section. Copy and Paste. And now it's time to spread the fire!
+-->
+
+
+
